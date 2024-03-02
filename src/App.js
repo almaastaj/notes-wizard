@@ -16,7 +16,7 @@ function App() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-
+        // Task is Editted
         if (editid) {
             const date = new Date();
             const selectedTask = tasklist.find((task) => task.id === editid);
@@ -35,6 +35,7 @@ function App() {
             return;
         }
 
+        // If Task is being Added
         if (task) {
             const date = new Date();
             setTasklist([
@@ -60,10 +61,12 @@ function App() {
         setTasklist(updatedTasklist);
     };
 
+    // Store TaskList in Local Storage
     useEffect(() => {
         localStorage.setItem("tasklist", JSON.stringify(tasklist));
     }, [tasklist]);
 
+    // Store theme in Local Storage
     useEffect(() => {
         localStorage.setItem("theme", JSON.stringify(theme));
     }, [theme]);
