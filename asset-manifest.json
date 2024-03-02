@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/notes-wizard/static/css/main.305560c1.css",
+    "main.js": "/notes-wizard/static/js/main.5495f5ff.js",
+    "static/media/Notes-Logo.png": "/notes-wizard/static/media/Notes-Logo.2dba690fb70359a7e4c2.png",
+    "index.html": "/notes-wizard/index.html",
+    "main.305560c1.css.map": "/notes-wizard/static/css/main.305560c1.css.map",
+    "main.5495f5ff.js.map": "/notes-wizard/static/js/main.5495f5ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.305560c1.css",
+    "static/js/main.5495f5ff.js"
+  ]
+}
